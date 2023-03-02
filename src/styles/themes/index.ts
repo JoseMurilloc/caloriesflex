@@ -1,20 +1,19 @@
 export const theme = {
   colors: {
     primary: {
+      700: '#8A66CF',
       500: '#8865ED',
       400: '#8F6FEE',
-      300: '#977AEF',
-    },
-    secondary: {
-      600: '#0891B2',
-      500: '#06B6D4',
-      400: '#22D3EE',
+      300: '#CDBBFF',
+      200: '#F6F1FF',
     },
     gray: {
-      700: '#334155',
-      500: '#64748B',
-      300: '#CBD5E1',
-      200: '#E2E8F0',
+      900: '#212121',
+      700: '#313131',
+      600: '#4A4A4A',
+      500: '#4D4D4D',
+      400: '#606060',
+      300: '#727272',
     },
     attention: {
       500: '#F43F5E',
@@ -26,8 +25,7 @@ export const theme = {
     },
     utils: {
       white: '#FFFFFF',
-      googleBlue: '#4B91FB',
-      googleWhite: '#FBFFFF',
+      whiteIce: '#F8F8F8',
     },
   },
 
@@ -37,6 +35,7 @@ export const theme = {
       regular: 'Inter-Regular',
       medium: 'Inter-Medium',
       semiBold: 'Inter-SemiBold',
+      bold: 'Inter-Bold',
     },
   },
 };
